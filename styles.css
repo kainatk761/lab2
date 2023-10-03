@@ -58,14 +58,24 @@
   padding: 0;
   margin: 0;
 }
-
+/* Use pseudo-classes to select and rearrange the tag items into two rows */
+#flex-section3 .tags ul li:nth-child(-n+3) {
+  order: 1;
+}
+#flex-section3 .tags ul li:nth-child(n+4) {
+  order: 2;
+}
+  
 /* end Flexbox Part 3 */
 
 
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  /* Four evenly spaced columns */
+  grid-gap: 20px;  /* A 20-pixel gap between both rows and columns */
+  grid-auto-rows: 100px;  /* Auto-generate rows to be 100px tall */
 }
 
 /* end Grid Part 1 */
