@@ -20,23 +20,23 @@
   list-style-type: none;
   margin: 0%;
   padding: 0;
-
 }
 
 #flex-section2 li {
-
+  flex: 1; /* Make each list item a flex item and specify that it should grow to fill the container equally */
+  overflow: auto;/* Make sure text doesn't spill over */
 }
 
 #flex-section2 .item1 {
-
+  order: 1; /* No need to reorder this item as it is already the first one */
 }
 
 #flex-section2 .item2 {
-
+  order: 3;/* Reorder this item to be the third column */
 }
 
 #flex-section2 .item3 {
-
+	order: 2;/* Reorder this item to be the second column */
 }
 
 /* end Flexbox Part 2 */
