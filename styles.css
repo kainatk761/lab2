@@ -100,7 +100,10 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
-
+  display: grid;
+  grid-template-columns: 2fr 1fr;  /* First column twice the width of the second */
+  grid-template-rows: 100px 300px 100px;  /* Heights for the three rows */
+  gap: 10px;  /* Gap between rows and columns */
 }
 
 #grid-section3 .box1 {
