@@ -9,7 +9,7 @@
 - References
 
 ## Author Information
-- Name: Your Name
-- Email: Your Email
-- Class and Assignment Numbers: Lab 2
-- Git repository URL: Your Git Repository URL
+- Name: Kainat Khan
+- Email: kkhan14@hawk.iit.edu
+- Class and Assignment Numbers: ITMD-442-02 Lab 2
+- Git repository URL: https://github.com/kainatk761 
